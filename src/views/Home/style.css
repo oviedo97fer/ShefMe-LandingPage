@@ -1,0 +1,58 @@
+.HomeView{
+    background: '#fff';
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-image: url('../../assets/dots.png');
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+    background-attachment: fixed;
+}
+.LogoComp{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+/*nav*/
+.NavHome{
+    width: 30vw;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.NavHome a{
+    text-decoration: none;
+    color: #292F36;
+}
+.HomeView img{
+    width: 25vw;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+}
+/*title*/
+.HomeTitleComp{
+    position: absolute;
+    left: 15%;
+    bottom: 40%;
+}
+.HomeTitleComp h1{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    margin: 0;
+}
+.orangeTitle{
+    color:#e29D28
+}
+.HomeTitleComp p{
+    width: 80%;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 0.9em;
+    margin:0;
+    margin-top: 2vw;
+    color:#686868;
+}
