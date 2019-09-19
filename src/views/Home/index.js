@@ -11,16 +11,17 @@ const Home = () => {
                 <Logo fontSize='2.8vw'/>
             </div>
             <div className='NavHome'>
-                <a href='#'>¿Cómo Funciona?</a>
-                <a href='#'>Quiero ser chef</a>
+                <a className='buttonHowWork' href='#'>¿Cómo Funciona?</a>
+                <a className='buttonChef' href='#'>Quiero ser chef</a>
             </div>
             <img src={food1} alt='shefme chef fooding food'/>
             <div className='HomeTitleComp'>
-                <h1>Tenés un evento.</h1>
+                <h1 className='blackTitle'>Tenés un evento.</h1>
                 <h1 className='orangeTitle'>Tenés un chef privado.</h1>
                 <p>Disfruta de la buena gastronomía
                 en la comodidad de tu hogar</p>
             </div>
+            <a className='buttonCTA' href='#'>Necesito un chef</a>
         </main>
     )
 }
