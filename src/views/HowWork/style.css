@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     background-position: 0% 10%;
 }
+.storyLineContainer{
+    position: absolute;
+    left: 35vw;
+    width: 10vw;
+}
