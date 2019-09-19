@@ -11,6 +11,7 @@
     position: absolute;
   }
   .cardText{
+    user-select: none;
     position: relative;
     margin-left: 30%;
     background: #fff;
@@ -40,6 +41,6 @@
     position: relative;
     width: 0.5vw;
     left: 28%;
-    margin-top: 4vw;
+    margin-top: 3vw;
     margin-bottom: 1vw;
   }

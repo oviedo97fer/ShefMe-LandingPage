@@ -4,12 +4,52 @@
     height: 200vh;
     background: #fff;
     background-image: url('../../assets/seed.png');
-    background-size: 20%;
+    background-size: 25%;
     background-repeat: no-repeat;
     background-position: 0% 10%;
+}
+.HowWorkTitle{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    color: #292F36;
+    margin: 2vw;
+    margin-bottom: 5vw;
+    width: 30vw;
+    position: relative;
+    left: 35%;
 }
 .storyLineContainer{
     position: absolute;
     left: 35vw;
     width: 10vw;
+    z-index: 20;
+}
+
+/*background*/
+.dotsBackground, .dotsBackgroundFood, .dotsBackgroundSeed{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    background-repeat: no-repeat;
+}
+.dotsBackground{
+    background-image: url('../../assets/dots.png');
+    background-position: 90% 10%;
+    z-index: 0;
+    background-size: 30%;
+}
+.dotsBackgroundSeed{
+    z-index: 1;
+    background-image: url('../../assets/hoja.png');
+    background-size: 25%;
+    background-position: 115% 40%;
+}
+.dotsBackgroundFood{
+    z-index: 3;
+    background-image: url('../../assets/food.png');
+    background-size: 40%;
+    background-position:-20% 100%;
 }

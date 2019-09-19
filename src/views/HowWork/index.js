@@ -48,6 +48,7 @@ const cards = [
 const HowWork = () =>{
     return(
         <main className='HowWorkView'>
+            <h1 className='HowWorkTitle'>¿Cómo funciona?</h1>
             <div className='storyLineContainer'>
                 {cards.map(card=>(
                     <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
@@ -55,8 +56,10 @@ const HowWork = () =>{
                     </ScrollAnimation>
                 ))}
             </div>
-            
 
+            <div className='dotsBackground'></div>
+            <div className='dotsBackgroundSeed'></div>
+            <div className='dotsBackgroundFood'></div>
         </main>
     )
 }
