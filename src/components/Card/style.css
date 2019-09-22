@@ -44,3 +44,54 @@
     margin-top: 3vw;
     margin-bottom: 1vw;
   }
+
+  /*mediaqueries*/
+  @media (max-width: 1024px){
+    .container{
+      width: 95%;
+    }
+    .iconCard{
+      width: 15%;
+      padding: 5%;
+    }
+    .cardText h1{
+      padding-left: 3vw;
+      padding-top: 4vw;
+      padding-right: 1vw;
+    }
+    .cardText p{
+      padding-bottom: 5vw;
+      padding-left: 3vw;
+    }
+    .dotsCard{
+      width: 1.5%;
+      left: 11%;
+      margin: 0;
+    }
+  }
+
+@media (max-width: 450px){
+  .container{
+    width: 95%;
+  }
+  .iconCard{
+    width: 15%;
+    padding: 5%;
+  }
+  .cardText h1{
+    padding-left: 4vw;
+    padding-top: 4vw;
+    padding-right: 1vw;
+    font-size: 0.9em;
+  }
+  .cardText p{
+    font-size: 0.7em;
+    padding-bottom: 5vw;
+    padding-left: 4vw;
+  }
+  .dotsCard{
+    width: 1.5%;
+    left: 11%;
+    margin: 0;
+  }
+}
