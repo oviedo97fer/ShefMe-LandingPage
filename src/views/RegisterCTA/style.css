@@ -1,0 +1,24 @@
+.RegisterCTAView{
+    background: '#fff';
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.RegisterCTAView h1{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2em;
+    color: #292F36;
+    position: absolute;
+    width: 90vw;
+    left: 5vw;
+}
+.RegisterContain{
+    width: 90vw;
+    left: 5vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}

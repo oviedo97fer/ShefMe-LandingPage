@@ -5,6 +5,7 @@ import './App.css';
 import Home from './views/Home'
 import HowWork from './views/HowWork'
 import WhenView from './views/WhenView'
+import RegisterCTA from './views/RegisterCTA'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <HowWork/>
       <WhenView/>
+      <RegisterCTA/>
     </div>
   );
 }
