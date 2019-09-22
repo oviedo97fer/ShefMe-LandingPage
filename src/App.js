@@ -6,6 +6,7 @@ import Home from './views/Home'
 import HowWork from './views/HowWork'
 import WhenView from './views/WhenView'
 import RegisterCTA from './views/RegisterCTA'
+import Footer from './views/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HowWork/>
       <WhenView/>
       <RegisterCTA/>
+      <Footer/>
     </div>
   );
 }

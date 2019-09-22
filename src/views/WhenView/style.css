@@ -89,6 +89,9 @@
     left: 65vw;
     box-shadow: 0px 0px 30px -15px #666;
 }
+.gourmet img:hover{
+    transform: scale(1.02)
+}
 .gourmet img:nth-child(3){
     left: 55vw;
 }
