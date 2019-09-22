@@ -8,7 +8,7 @@ const Home = () => {
     return(
         <main className='HomeView'>
             <div className='LogoComp'>
-                <Logo fontSize='2.8vw'/>
+                <Logo fontSize='2em'/>
             </div>
             <div className='NavHome'>
                 <a className='buttonHowWork' href='#'>¿Cómo Funciona?</a>

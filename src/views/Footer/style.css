@@ -30,3 +30,9 @@
 .buttonChefFooter:hover{
     transform: scale(1.1);
  }
+
+ /*mediaqueries*/
+
+ @media (max-width: 450px){
+     
+ }

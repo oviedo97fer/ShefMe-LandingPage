@@ -16,10 +16,12 @@
 }
 /*nav*/
 .NavHome{
-    width: 30vw;
+    width: 35vw;
     position: absolute;
     top: 12%;
     right: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .NavHome a{
     text-decoration: none;
@@ -87,8 +89,7 @@
 /*CTA*/
 .buttonCTA{
     position: absolute;
-    padding: 1.5vw 3.5vw;
-    width: 10vw;
+    padding: 0.9em 5em;
     background: #e29D28;
     box-shadow: 0px 0px 40px -15px #666;
     border-radius: 4vw;
@@ -97,7 +98,7 @@
 
     text-decoration: none;
     color: #fff;    
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: 'Open Sans';
     font-weight: bold;
 
@@ -106,4 +107,47 @@
 }
 .buttonCTA:hover{
     transform: scale(1.08)
+}
+
+/*mediaqueries*/
+@media (max-width: 450px){
+    .HomeView{
+        background-position: center;
+        background-size: 50%;
+    }
+    .LogoComp{
+        width: 90vw;        
+        left: 5%;
+        top: 10%;
+    }
+    .NavHome{
+        display: none;
+    }
+    .HomeView img{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 45vw;
+    }
+    .HomeTitleComp{
+        left: 0;
+        bottom: 65%;
+        width: 100%;
+    }
+    .HomeTitleComp h1{
+        text-align: center;
+    }
+    .HomeTitleComp p{
+        position: absolute;
+        top: 430%;
+        left: 10%;
+        text-align: center;
+    }
+    .buttonCTA{
+        width: 70%;
+        left: 5%;
+        bottom: 7%;
+        padding: 1.5em 3em;
+        border-radius: 4em
+    }
 }
