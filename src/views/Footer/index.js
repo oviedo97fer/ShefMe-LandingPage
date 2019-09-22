@@ -1,17 +1,28 @@
 import React from 'react'
-
+import {connect} from 'react-redux'
 import './style.css'
 //assets
 import Logo from '../../components/Logo'
 
-const Footer = () =>{ 
+const Footer = ({handleToggle}) =>{ 
     return(
         <main className='FooterView'>
-            <Logo fontSize='6vw'/>
-            <a className='buttonCTA buttonCTAFooter' href='#'>Necesito un chef</a>
-            <a className='buttonChefFooter' href='#'>Soy chef</a>
+            <Logo fontSize='3em'/>
+            <a onClick={handleToggle} className='buttonCTA buttonCTAFooter'>Necesito un chef</a>
+            <a onClick={handleToggle} className='buttonChefFooter'>Soy chef</a>
         </main>
     )
 }
 
-export default Footer
+
+const mapStateToProps = state => ({})
+const mapDispatchToProps = dispatch => ({
+    handleToggle(){
+        dispatch({
+            type: 'TOGGLE_MODAL',
+        })
+    }
+});
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Footer);

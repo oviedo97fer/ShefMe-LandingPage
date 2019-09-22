@@ -47,7 +47,7 @@ const cards = [
 
 const HowWork = () =>{
     return(
-        <main className='HowWorkView'>
+        <main className='HowWorkView' id='HowWork'>
             <h1 className='HowWorkTitle'>¿Cómo funciona?</h1>
             <div className='storyLineContainer'>
                 {cards.map(card=>(

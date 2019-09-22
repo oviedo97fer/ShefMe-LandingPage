@@ -5,6 +5,7 @@
     height: 80vh;
     display: flex;
     flex-direction: row;
+
 }
 .RegisterCTAView h1{
     font-family: 'Raleway';
@@ -14,6 +15,7 @@
     position: absolute;
     width: 90vw;
     left: 5vw;
+    top: 5%;
 }
 .RegisterContain{
     width: 90vw;
@@ -21,4 +23,18 @@
     display: flex;
     flex-direction: row;
     position: relative;
+
+}
+
+/*mediaqueries*/
+
+@media (max-width: 450px){
+    .RegisterCTAView{
+        height: 100vh;
+    }
+    .RegisterContain{
+        flex-direction: column;
+        margin-top: 30%;
+    }
+  
 }

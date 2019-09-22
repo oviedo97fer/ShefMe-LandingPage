@@ -1,5 +1,5 @@
 .GalleryComp{
-    position: absolute;
+    position: relative;
     width: 60vw;
     display: flex;
     flex-direction: column;

@@ -1,4 +1,6 @@
 import React from 'react';
+import {connect} from 'react-redux'
+
 //scroll
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
@@ -11,23 +13,23 @@ import gourmet1 from '../../assets/gourmet1.png'
 import gourmet2 from '../../assets/gourmet2.png'
 import gourmet3 from '../../assets/gourmet3.png'
 
-const WhenView = () => {
+const WhenView = ({handleToggle}) => {
     return(
         <main className='WhenView'>
             <h1 className='WhenViewTitle'>¿En qué ocasiones?</h1>
             <div className='GalleryContainer'>
-            <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
-                <Gallery/>
-            </ScrollAnimation>
+                <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
+                    <Gallery/>
+                </ScrollAnimation>
             </div>
             <div className='plateFoodBackground'></div>
-            <h1 className='cocinaTitle'>Cocina Gourmet en su hogar</h1>
             <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
                 <div className='gourmet'>
+                <h1 className='cocinaTitle'>Cocina Gourmet en su hogar</h1>
                     <div className='gourmetTitle'>
                         <h2>Usted disfruta.<br/>Nosotros cocinamos.</h2>
                         <p>Seleccionamos a los mejores chefs del rubro para acercarte menúes exquisitos y únicos. Vos solo disfrutá.</p>
-                        <a href='#'>Necesito un chef</a>
+                        <a onClick={handleToggle}>Necesito un chef</a>
                     </div>
                     <img src={gourmet1}/>
                     <img src={gourmet2}/>
@@ -38,4 +40,15 @@ const WhenView = () => {
     )
 }
 
-export default WhenView
+
+const mapStateToProps = state => ({})
+const mapDispatchToProps = dispatch => ({
+    handleToggle(){
+        dispatch({
+            type: 'TOGGLE_MODAL',
+        })
+    }
+});
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(WhenView);

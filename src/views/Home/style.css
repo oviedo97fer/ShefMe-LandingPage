@@ -49,8 +49,8 @@
    border-color: #ffcd76
 }
 
-/**/
-.HomeView img{
+
+.shefMeImg{
     width: 25vw;
     position: absolute;
     right: 20%;
@@ -123,7 +123,7 @@
     .NavHome{
         display: none;
     }
-    .HomeView img{
+    .shefMeImg{
         top:50%;
         left: 50%;
         transform: translate(-50%,-50%);

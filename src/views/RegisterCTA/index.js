@@ -2,6 +2,8 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
+import {connect} from 'react-redux'
+
 import './style.css'
 
 //comp
@@ -20,11 +22,11 @@ const data = [
     {
         title:'¿Es un chef talentoso?',
         desc:'Buscamos chefs con buena trayectoria, únicos y talentosos', 
-        btn:'Quiero ser chef', 
+        btn:'Soy chef', 
         icon: cooker
     }
 ]
-const RegisterCTA = () =>{
+const RegisterCTA = ({handleToggle}) =>{
     return(
         <main className='RegisterCTAView'>
             <h1>Quiero ser parte</h1>
@@ -37,6 +39,7 @@ const RegisterCTA = () =>{
                         btn={i.btn}
                         icon={i.icon}
                         key={i.title}
+                        toggle={handleToggle}
                     />
                 ))}
             </div>
@@ -45,4 +48,15 @@ const RegisterCTA = () =>{
     )
 }
 
-export default RegisterCTA
+
+const mapStateToProps = state => ({})
+const mapDispatchToProps = dispatch => ({
+    handleToggle(){
+        dispatch({
+            type: 'TOGGLE_MODAL',
+        })
+    }
+});
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(RegisterCTA);

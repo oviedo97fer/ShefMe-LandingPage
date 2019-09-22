@@ -41,3 +41,49 @@
 .RegisterComponent a:hover{
     transform: scale(1.1)
 }
+
+
+/*mediaqueries*/
+@media (max-width: 1024px){
+    .RegisterComponent img{
+        width: 8vw;
+    }
+    .RegisterComponent h2{
+        font-size: 1.2em;
+    }
+    .RegisterComponent p{
+        font-size: 0.7em;
+        width: 80%;
+        left: 10%;
+    }
+    .RegisterComponent a{
+        padding:2vw 0vw;
+        width: 80%;
+        left: 10%;
+        border-radius: 6vw;
+        font-size: .8em
+    }
+}
+
+@media (max-width: 450px){
+    .RegisterComponent{
+        width: 100%;
+        margin: 0;
+        margin-top: 15%;
+        
+    }
+    .RegisterComponent img{
+        width: 20vw;
+    }
+    .RegisterComponent h2{
+        font-size: 1.4em;
+    }
+    .RegisterComponent p{
+        font-size: 0.7em;
+    }
+    .RegisterComponent a{
+        padding:3vw 0vw;
+        border-radius: 6vw;
+        font-size: .9em
+    }
+}
