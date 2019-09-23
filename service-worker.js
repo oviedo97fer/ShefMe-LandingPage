@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ShefMe-LandingPage/precache-manifest.e96453c9face07bd62092e81d7083ee0.js"
+  "/ShefMe-LandingPage/precache-manifest.c13d7d9c32cdcececf245dd9eeda4c0d.js"
 );
 
 self.addEventListener('message', (event) => {
