@@ -9,7 +9,7 @@ const Footer = ({handleToggle}) =>{
         <main className='FooterView'>
             <Logo fontSize='3em'/>
             <a onClick={handleToggle} className='buttonCTA buttonCTAFooter'>Quiero un chef</a>
-            <a onClick={handleToggle} className='buttonChefFooter'>Soy chef</a>
+            <a onClick={handleToggle} className='buttonChefFooter'>Ser parte</a>
         </main>
     )
 }
