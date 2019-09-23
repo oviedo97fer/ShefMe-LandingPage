@@ -16,7 +16,7 @@ const Home = ({handleToggle}) => {
             </div>
             <div className='NavHome'>
                 <a className='buttonHowWork' href='#HowWork'>¿Cómo Funciona?</a>
-                <a className='buttonChef' href='#' onClick={handleToggle}>Quiero ser chef</a>
+                <a className='buttonChef' href='#' onClick={handleToggle}>Soy chef</a>
             </div>
             <img src={food1} className='shefMeImg' alt='shefme chef fooding food'/>
             <div className='HomeTitleComp'>
@@ -25,7 +25,7 @@ const Home = ({handleToggle}) => {
                 <p>Disfruta de la buena gastronomía
                 en la comodidad de tu hogar</p>
             </div>
-            <a className='buttonCTA' onClick={handleToggle} href='#'>Necesito un chef</a>
+            <a className='buttonCTA' onClick={handleToggle} href='#'>Quiero un chef</a>
 
         </main>
     )

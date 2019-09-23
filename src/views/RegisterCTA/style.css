@@ -7,16 +7,7 @@
     flex-direction: row;
 
 }
-.RegisterCTAView h1{
-    font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 2em;
-    color: #292F36;
-    position: absolute;
-    width: 90vw;
-    left: 5vw;
-    top: 5%;
-}
+
 .RegisterContain{
     width: 90vw;
     left: 5vw;

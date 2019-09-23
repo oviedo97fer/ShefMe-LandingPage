@@ -16,20 +16,19 @@ const data = [
     {
         title:'¿Necesita un chef?',
         desc:'Ya sea un evento de amigos, una cena familiar o un evento corporativo', 
-        btn:'Necesito un chef', 
+        btn:'Quiero un chef', 
         icon: businessman
     },
     {
         title:'¿Es un chef talentoso?',
         desc:'Buscamos chefs con buena trayectoria, únicos y talentosos', 
-        btn:'Soy chef', 
+        btn:'Ser parte', 
         icon: cooker
     }
 ]
 const RegisterCTA = ({handleToggle}) =>{
     return(
         <main className='RegisterCTAView'>
-            <h1>Quiero ser parte</h1>
             <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
             <div className='RegisterContain'>
                 {data.map(i=>(

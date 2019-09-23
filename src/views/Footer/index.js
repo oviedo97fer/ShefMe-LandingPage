@@ -8,7 +8,7 @@ const Footer = ({handleToggle}) =>{
     return(
         <main className='FooterView'>
             <Logo fontSize='3em'/>
-            <a onClick={handleToggle} className='buttonCTA buttonCTAFooter'>Necesito un chef</a>
+            <a onClick={handleToggle} className='buttonCTA buttonCTAFooter'>Quiero un chef</a>
             <a onClick={handleToggle} className='buttonChefFooter'>Soy chef</a>
         </main>
     )

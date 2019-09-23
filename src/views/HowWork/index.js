@@ -14,8 +14,8 @@ import "animate.css/animate.min.css";
 
 const cards = [
     {
-        title: 'Elija el menú a medida',
-        desc: 'Tenemos una amplia variedad de menúes gourmet para que elija',
+        title: 'Elige un chef',
+        desc: 'Tenemos una amplia variedad de chefs y menús',
         icon: menu,
         dots: true
     },
@@ -26,8 +26,8 @@ const cards = [
         dots: true
     },
     {
-        title: 'Ellos cocinan en su casa',
-        desc: 'Preparan el menú que quiera con las herramientas que tenga',
+        title: 'El chef cocina en tu casa',
+        desc: 'El chef prepara el menú seleccionado',
         icon: dining,
         dots: true
     },
