@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0252228e08eeb101bb3ec3dd493367",
+    "revision": "834b4be0282beb31d41abd68bc12624e",
     "url": "/ShefMe-LandingPage/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShefMe-LandingPage/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "5d86ddbd10ebbef9a372",
-    "url": "/ShefMe-LandingPage/static/css/main.cc13c9c6.chunk.css"
+    "revision": "0b6880d04919abcf57a5",
+    "url": "/ShefMe-LandingPage/static/css/main.e8d3fe6a.chunk.css"
   },
   {
     "revision": "1e0f48eb3edc1c131293",
     "url": "/ShefMe-LandingPage/static/js/2.81be130c.chunk.js"
   },
   {
-    "revision": "5d86ddbd10ebbef9a372",
-    "url": "/ShefMe-LandingPage/static/js/main.1f058c0d.chunk.js"
+    "revision": "0b6880d04919abcf57a5",
+    "url": "/ShefMe-LandingPage/static/js/main.48bfae42.chunk.js"
   },
   {
     "revision": "8186d1a4908a9ac60e9a",
