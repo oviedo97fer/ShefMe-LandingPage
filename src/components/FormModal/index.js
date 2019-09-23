@@ -10,7 +10,7 @@ const FormModal = ({showFormModal,handleToggle}) =>{
                 <img onClick={handleToggle} className='closeBtn' src={close} alt='closebutton'/>
                 <img className='foodBackground' src={food2  } alt='shefme food plate topview'/>
                 <h4>Dejanos tus datos.<br/>Nosotros te contactamos</h4>
-                <form className='FormModalContain' action="https://formspree.io/shefme.oke@gmail.com" method="POST">
+                <form className='FormModalContain' action="https://formspree.io/shefme.ok@gmail.com" method="POST">
                     <input type="text" name="name" placeholder='Nombre'/>
                     <input type="email" name="_replyto" placeholder='Email'/>
                     <input type="submit" value="Enviar"/>

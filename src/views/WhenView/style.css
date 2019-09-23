@@ -16,8 +16,9 @@
     position: relative;
 }
 .GalleryContainer{
-    width: 80vw;
-    left: 20vw;
+    width: 80%;
+    left: 19%;
+    margin: 0;
     position: relative;
 }
 
