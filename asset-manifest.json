@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2911a4c0.chunk.css",
+    "main.js": "/static/js/main.68f23e6d.chunk.js",
+    "main.js.map": "/static/js/main.68f23e6d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.488d7676.js",
+    "runtime~main.js.map": "/static/js/runtime~main.488d7676.js.map",
+    "static/css/2.5bc09813.chunk.css": "/static/css/2.5bc09813.chunk.css",
+    "static/js/2.81be130c.chunk.js": "/static/js/2.81be130c.chunk.js",
+    "static/js/2.81be130c.chunk.js.map": "/static/js/2.81be130c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aeaf32760d4482db168aee1adb5539d2.js": "/precache-manifest.aeaf32760d4482db168aee1adb5539d2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5bc09813.chunk.css.map": "/static/css/2.5bc09813.chunk.css.map",
+    "static/css/main.2911a4c0.chunk.css.map": "/static/css/main.2911a4c0.chunk.css.map",
+    "static/media/amigos.png": "/static/media/amigos.b571482e.png",
+    "static/media/birth.png": "/static/media/birth.131dc1e9.png",
+    "static/media/business.png": "/static/media/business.08e6c182.png",
+    "static/media/style.css": "/static/media/seed.11d874fb.png",
+    "static/media/close.svg": "/static/media/close.c4c396d3.svg",
+    "static/media/family.png": "/static/media/family.b89f8fdb.png",
+    "static/media/food1.png": "/static/media/food1.e498255a.png",
+    "static/media/food2.png": "/static/media/food2.1184ed84.png",
+    "static/media/gourmet1.png": "/static/media/gourmet1.3fab24e0.png",
+    "static/media/gourmet2.png": "/static/media/gourmet2.b6010cb2.png",
+    "static/media/gourmet3.png": "/static/media/gourmet3.c2aec8d2.png"
+  }
+}
