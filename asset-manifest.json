@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ShefMe-LandingPage/static/css/main.dd577849.chunk.css",
+    "main.css": "/ShefMe-LandingPage/static/css/main.cc13c9c6.chunk.css",
     "main.js": "/ShefMe-LandingPage/static/js/main.1f058c0d.chunk.js",
     "main.js.map": "/ShefMe-LandingPage/static/js/main.1f058c0d.chunk.js.map",
     "runtime~main.js": "/ShefMe-LandingPage/static/js/runtime~main.dc7cf074.js",
@@ -9,10 +9,10 @@
     "static/js/2.81be130c.chunk.js": "/ShefMe-LandingPage/static/js/2.81be130c.chunk.js",
     "static/js/2.81be130c.chunk.js.map": "/ShefMe-LandingPage/static/js/2.81be130c.chunk.js.map",
     "index.html": "/ShefMe-LandingPage/index.html",
-    "precache-manifest.d0c223159e4c8f36db0d3b2c9b76e9b4.js": "/ShefMe-LandingPage/precache-manifest.d0c223159e4c8f36db0d3b2c9b76e9b4.js",
+    "precache-manifest.2c5a8754af6a4be6085486883c4a6c6a.js": "/ShefMe-LandingPage/precache-manifest.2c5a8754af6a4be6085486883c4a6c6a.js",
     "service-worker.js": "/ShefMe-LandingPage/service-worker.js",
     "static/css/2.5bc09813.chunk.css.map": "/ShefMe-LandingPage/static/css/2.5bc09813.chunk.css.map",
-    "static/css/main.dd577849.chunk.css.map": "/ShefMe-LandingPage/static/css/main.dd577849.chunk.css.map",
+    "static/css/main.cc13c9c6.chunk.css.map": "/ShefMe-LandingPage/static/css/main.cc13c9c6.chunk.css.map",
     "static/media/amigos.png": "/ShefMe-LandingPage/static/media/amigos.b571482e.png",
     "static/media/birth.png": "/ShefMe-LandingPage/static/media/birth.131dc1e9.png",
     "static/media/business.png": "/ShefMe-LandingPage/static/media/business.08e6c182.png",
