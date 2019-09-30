@@ -25,7 +25,7 @@ const WhenView = ({handleToggle}) => {
             <div className='plateFoodBackground'></div>
             <ScrollAnimation animateIn='fadeIn'animateOnce={true} >
                 <div className='gourmet'>
-                <h1 className='cocinaTitle'>Cocina Gourmet en su hogar</h1>
+                <h1 className='cocinaTitle'>La alta cocina en tu hogar</h1>
                     <div className='gourmetTitle'>
                         <h2>Usted disfruta.<br/>Nosotros cocinamos.</h2>
                         <p>Seleccionamos a los mejores chefs del rubro para acercarte menúes exquisitos y únicos.</p>
