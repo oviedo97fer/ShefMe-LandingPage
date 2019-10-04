@@ -27,7 +27,7 @@ const WhenView = ({handleToggle}) => {
                 <div className='gourmet'>
                 <h1 className='cocinaTitle'>La alta cocina en tu hogar</h1>
                     <div className='gourmetTitle'>
-                        <h2>Usted disfruta.<br/>Nosotros cocinamos.</h2>
+                        <h2>Disfruta.<br/>Nosotros cocinamos.</h2>
                         <p>Seleccionamos a los mejores chefs del rubro para acercarte menúes exquisitos y únicos.</p>
                         <a onClick={handleToggle}>Quiero un chef</a>
                     </div>

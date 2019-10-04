@@ -14,7 +14,7 @@ import cooker from '../../assets/cooker.png'
 
 const data = [
     {
-        title:'¿Necesita un chef?',
+        title:'¿Necesitas un chef?',
         desc:'Ya sea un evento de amigos, una cena familiar o un evento corporativo', 
         btn:'Quiero un chef', 
         icon: businessman

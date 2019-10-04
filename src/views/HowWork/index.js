@@ -21,7 +21,7 @@ const cards = [
     },
     {
         title: 'Nuestros chefs compran los ingredientes',
-        desc: 'Seleccionan los mejores ingredientes para que disfrute del mejor menú',
+        desc: 'Seleccionan los mejores ingredientes para que disfrutes del mejor menú',
         icon: ingredients,
         dots: true
     },
@@ -33,13 +33,13 @@ const cards = [
     },
     {
         title: 'Sirven el menú',
-        desc: 'Sus invitados serán atendidos de la mejor manera',
+        desc: 'Tus invitados serán atendidos de la mejor manera',
         icon: waiter,
         dots: true
     },
     {
         title: 'Y ellos se encargan de la limpieza',
-        desc: 'Los chefs dejan todo limpio mientras usted disfruta de su familia y amigos',
+        desc: 'Los chefs dejan todo limpio mientras disfrutas de tu familia y amigos',
         icon: soap,
         dots: false
     }
