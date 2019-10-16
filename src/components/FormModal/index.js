@@ -5,6 +5,9 @@ import close from '../../assets/close.svg'
 import './style.css'
 import {connect} from 'react-redux'
 
+//mailchimp
+import Mailchimp from 'react-mailchimp-form'
+
 class FormModal extends React.Component{
     constructor(){
         super()
@@ -13,32 +16,6 @@ class FormModal extends React.Component{
             email: ''
         }
     }
-
-    postContactMailChimp = (e) => {
-        e.preventDefault()
-        let data = {
-            email_address: this.state.email,
-            status: "subscribed",
-            merge_fields: {
-                "FNAME": this.state.name,
-                "LNAME": ""
-            }
-        }
-        let authBtoa = btoa('shefme:3399ac35719591975c7f5c9bfcd70ea4-us20')
-        let auth = 'Basic ' + authBtoa
-        let url = 'https://us20.api.mailchimp.com/3.0/lists/e4dc5a3133/members'
-        let options  = {
-            method: 'POST',
-            headers: {
-                'Authorization': auth,
-                'Accept': 'application/json',
-                'Content-Type':'application/json'
-            },
-            body: JSON.stringify(data),
-        }
-        fetch(url,options).then(ok=>console.table(ok)).catch(err=>console.error(err))
-    }
-
     onChangeName = (input) =>{
         this.setState({name: input.target.value})
     }
@@ -47,16 +24,47 @@ class FormModal extends React.Component{
     }
     render(){
         const {showFormModal,handleToggle} = this.props;
+        const url = 'https://shefme.us20.list-manage.com/subscribe/post?u=700c330f62d6eb3d56d8f6de5&amp;id=e4dc5a3133'
         return( 
             <div className={showFormModal? 'FormModalComp' : 'FormModalComp no-show'}>
                 <img onClick={handleToggle} className='closeBtn' src={close} alt='closebutton'/>
                 <img className='foodBackground' src={food2  } alt='shefme food plate topview'/>
                 <h4>Dejanos tus datos.<br/>Nosotros te contactamos</h4>
-                <form className='FormModalContain'>
+
+                <Mailchimp 
+                    action={url}
+                    fields={[
+                        {
+                            name: 'FNAME',
+                            placeholder: 'Nombre',
+                            type: 'text',
+                            required: false
+                        },
+                        {
+                            name: 'EMAIL',
+                            placeholder: 'Email',
+                            type: 'email',
+                            required: false
+                        }
+                    ]}
+                    messages = {
+                        {
+                          sending: "Enviando...",
+                          success: "Gracias por dejarnos tus datos! Nos contactaremos con vos",
+                          error: "Ya estás registrado! Nos contactaremos con vos",
+                          empty: "Mm, no escribiste ningún correo",
+                          duplicate: "Ya estás registrado! Nos contactaremos con vos",
+                          button: "Registrarme"
+                        }
+                      }
+                    className='FormModalContain'
+                    buttonClassName='buttonForm'
+                />
+                {/* <form className='FormModalContain'>
                     <input onChange={this.onChangeName} type="text" name="name" placeholder='Nombre'/>
                     <input onChange={this.onChangeMail} type="email" name="_replyto" placeholder='Email'/>
                     <input onClick={this.postContactMailChimp} type="submit" value="Enviar"/>
-                </form>
+                </form> */}
             </div>)
     }
 }

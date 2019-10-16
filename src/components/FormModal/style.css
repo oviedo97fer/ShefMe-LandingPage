@@ -53,15 +53,21 @@
     font-family: 'Poppins';
     font-size: 1em;
 }
-.FormModalContain input[type=submit]{
+.FormModalContain button{
+    background-color: #fff;
     left: 13%;
     width: 50%;
     position: relative;
+    border: 1px solid;
     border-color: #E29D28;
+    border-radius: 4vw;
+    padding: 1vw;
+    margin-top: 1vw;
     color: #E29D28;
+    cursor: pointer;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.FormModalContain input[type=submit]:hover{
+.FormModalContain button:hover{
     background-color: #E29D28;
     color: #fff;
     transform: scale(1.03)
