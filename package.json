@@ -6,6 +6,7 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "gh-pages": "^2.1.1",
+    "md5": "^2.2.1",
     "react": "^16.9.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.9.0",
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-   "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
