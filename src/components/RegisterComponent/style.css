@@ -26,7 +26,7 @@
 
 .RegisterComponent a{
     position: absolute;
-    background-image: url('../../assets/button.png');
+    background-image: url('../../assets/button.webp');
     padding:  1.2vw 0vw;
     border-radius: 2vw;
     cursor: pointer;

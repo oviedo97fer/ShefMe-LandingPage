@@ -2,10 +2,10 @@ import React from 'react';
 
 import './style.css'
 
-import amigos from '../../assets/amigos.png'
-import birth from '../../assets/birth.png'
-import family from '../../assets/family.png'
-import business from '../../assets/business.png'
+import amigos from '../../assets/amigos.webp'
+import birth from '../../assets/birth.webp'
+import family from '../../assets/family.webp'
+import business from '../../assets/business.webp'
 
 const Gallery = () =>{
     return(

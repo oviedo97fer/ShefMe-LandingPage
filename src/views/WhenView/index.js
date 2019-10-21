@@ -11,7 +11,7 @@ import Gallery from '../../components/Gallery'
 //assets
 import gourmet1 from '../../assets/gourmet1.png'
 import gourmet2 from '../../assets/gourmet2.png'
-import gourmet3 from '../../assets/gourmet3.png'
+import gourmet3 from '../../assets/gourmet3.webp'
 
 const WhenView = ({handleToggle}) => {
     return(

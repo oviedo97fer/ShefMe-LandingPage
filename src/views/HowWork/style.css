@@ -51,7 +51,7 @@
 }
 .dotsBackgroundFood{
     z-index: 0;
-    background-image: url('../../assets/food.png');
+    background-image: url('../../assets/food.webp');
     background-size: 40%;
     background-position:-20% 100%;
     top: 50%;

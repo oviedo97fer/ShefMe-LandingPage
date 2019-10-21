@@ -7,7 +7,7 @@ import FormModal from '../../components/FormModal'
 
 import Logo from '../../components/Logo'
 //assets
-import food1 from '../../assets/food1.png'
+import food1 from '../../assets/food1.webp'
 const Home = ({handleToggle}) => {
     return(
         <main className='HomeView'>
