@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f28ae02aa47f936dd82328ca6b5d68e",
+    "revision": "53b0d7ab009530a892159b62258c7d39",
     "url": "/index.html"
   },
   {
@@ -8,36 +8,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "dac43453a350dbe155b4",
-    "url": "/static/css/main.07b44764.chunk.css"
+    "revision": "0d1aa3ee1b7afde42ae5",
+    "url": "/static/css/main.78ddfc02.chunk.css"
   },
   {
     "revision": "e3f653c9d5e7c6d200ce",
     "url": "/static/js/2.ddd4cea4.chunk.js"
   },
   {
-    "revision": "dac43453a350dbe155b4",
-    "url": "/static/js/main.aa324cef.chunk.js"
+    "revision": "0d1aa3ee1b7afde42ae5",
+    "url": "/static/js/main.b7f76e38.chunk.js"
   },
   {
     "revision": "b711e056b12e84377485",
     "url": "/static/js/runtime~main.488d7676.js"
   },
   {
-    "revision": "b571482ecaf312e1dfe288a986aca926",
-    "url": "/static/media/amigos.b571482e.png"
+    "revision": "9c09f1379649bb99ee9de7ed201fe680",
+    "url": "/static/media/amigos.9c09f137.webp"
   },
   {
-    "revision": "131dc1e9f6becbf72c4b642fcf978aec",
-    "url": "/static/media/birth.131dc1e9.png"
+    "revision": "1f1bfa8618dd84aee4b3ff1cf0635eac",
+    "url": "/static/media/birth.1f1bfa86.webp"
   },
   {
-    "revision": "08e6c18298aeb7831b9107fc5927a486",
-    "url": "/static/media/business.08e6c182.png"
+    "revision": "e1fcbd794c3e491126973ac5659a8592",
+    "url": "/static/media/business.e1fcbd79.webp"
   },
   {
-    "revision": "37b546cc0afeca8f1be50ee61621af14",
-    "url": "/static/media/button.37b546cc.png"
+    "revision": "70cd9874bb1bce32fa22a19946f5a6b2",
+    "url": "/static/media/button.70cd9874.webp"
   },
   {
     "revision": "c4c396d3afb908f878b4835a616ba1af",
@@ -48,16 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cook.70fd6a45.png"
   },
   {
-    "revision": "b89f8fdb7316a05a800da5f40d9d2bd0",
-    "url": "/static/media/family.b89f8fdb.png"
+    "revision": "4c113ef2e0e1b512f4a045932f5ee024",
+    "url": "/static/media/family.4c113ef2.webp"
   },
   {
-    "revision": "08611c55d8cae8f84c21dcff0b847cf2",
-    "url": "/static/media/food.08611c55.png"
+    "revision": "f955c5115df879d21b92823d297923d8",
+    "url": "/static/media/food.f955c511.webp"
   },
   {
-    "revision": "e498255aa6a3f15f06cd164b13e6c9b1",
-    "url": "/static/media/food1.e498255a.png"
+    "revision": "d9f87f690f7e37f08025a86fe1f1951f",
+    "url": "/static/media/food1.d9f87f69.webp"
   },
   {
     "revision": "1184ed8489b0b8a850da1e72f13cde18",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/gourmet2.b6010cb2.png"
   },
   {
-    "revision": "c2aec8d25e25103b45d6c1bb4c9f8b75",
-    "url": "/static/media/gourmet3.c2aec8d2.png"
+    "revision": "73e54e23e378b70c9207588be804ac5a",
+    "url": "/static/media/gourmet3.73e54e23.webp"
   },
   {
     "revision": "9428667fd0dc2c8032983b5efd1d6341",
